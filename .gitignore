@@ -35,3 +35,7 @@ __MACOSX/
 *.zip
 __MACOSX/
 ~.docx
+.DS_Store
+*.zip
+__MACOSX/
+~.docx
