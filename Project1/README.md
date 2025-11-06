@@ -1,24 +1,27 @@
-# Data Science Coursework Projects
+# Project 1 — Regression Models
 
 **Author:** Venkata Vivek Panguluri  
-**University:** University of Georgia  
+**Course:** Data Science (UGA)
 
-This repository contains two Data Science projects demonstrating regression, model evaluation, and neural-network methods.
+## Overview
+This project explores classical regression methods to model a target variable and compare model quality using standard error metrics.
 
-## 📘 Project 1 — Regression Models
-Folder: `Project1/`  
-Implements simple, multiple, and regularized regression (Ridge & Lasso) with evaluation metrics RMSE and R².
+**Models**
+- Simple Linear Regression
+- Multiple Linear Regression
+- Regularized Regression: **Ridge**, **Lasso**
 
-## 🤖 Project 2 — Neural Networks and Gradient Descent
-Folder: `Project2/`  
-Implements perceptron and multilayer neural networks using gradient-descent optimization (GD vs IGD) and compares them to classical regression models.
+**Metrics**
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+- R² (Coefficient of Determination)
 
----
+## Repository Layout
 
-### 📈 Technologies
-Python / Scala (Scalation), NumPy, Pandas, Matplotlib, Scikit-Learn, Jupyter
+## Setup (Python)
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r Project1/requirements.txt  # if present
+# or:
+# pip install numpy pandas scikit-learn matplotlib jupyterlab
 
-### 🧮 Evaluation Metrics
-RMSE  |  MAE  |  R²  |  SSE  
-
-Each subfolder has its own README and report PDF.

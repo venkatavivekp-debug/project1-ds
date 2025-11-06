@@ -13,7 +13,6 @@ Folder: [Project2/](Project2)
 Report: [DS 2 – Project 2 Report.pdf](Project2/docs/DS%202%20-%20Project%202%20Report.pdf)  
 Results: [simpleNN7 Output.html](Project2/results/simpleNN7%20Output.html) · [simpleRegressionTest.html](Project2/results/simpleRegressionTest.html)
 
-
 ## Structure
 Project1/ (docs/, README.md) · Project2/ (docs/, results/, src/, README.md)
 

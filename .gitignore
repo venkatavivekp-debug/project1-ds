@@ -39,3 +39,6 @@ __MACOSX/
 *.zip
 __MACOSX/
 ~.docx
+
+.venv/
+.ipynb_checkpoints/
